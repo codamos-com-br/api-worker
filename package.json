@@ -1,7 +1,7 @@
 {
 	"name": "uuid-worker",
 	"version": "1.0.0",
-	"description": "Cloudflare Worker that generates UUIDs.",
+	"description": "Cloudflare worker utilizado para gerar UUID v4 compatíveis com a RFC 4122",
 	"scripts": {
 		"dev": "npx wrangler dev",
 		"publish": "npx wrangler publish",
@@ -9,8 +9,8 @@
 		"lint": "eslint --max-warnings=0 src && prettier --check '*.{json,js}' 'src/**/*.{js,ts}' 'test/**/*.{js,ts}'",
 		"test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
 	},
-	"author": "author",
-	"license": "MIT OR Apache-2.0",
+	"author": "Nawarian <nickolas@phpsp.org.br>",
+	"license": "GPL-3.0",
 	"eslintConfig": {
 		"root": true,
 		"extends": [
