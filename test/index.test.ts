@@ -12,7 +12,13 @@ test("Invalid requests", async () => {
 
 test("Valid requests", async () => {
 	const result = await worker.fetch(
-		new Request("http://api.codamos.com.br/uuid4", { method: "POST" }),
+		new Request("http://api.codamos.com.br/uuid4", {
+      method: "POST",
+      headers: {
+        'Origin': 'https://codamos.com.br',
+        'Referer': 'https://codamos.com.br',
+      },
+    }),
 		{},
 		{} as any
 	);
