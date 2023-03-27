@@ -1,7 +1,15 @@
-UUID Worker
+API Worker
 ---
 
+Conjunto de APIs que dão suporte a ferramentas gratuitas do site codamos.com.br.
+
+### Gerador de UUID online
+
 Acesse a ferramenta online: https://codamos.com.br/gerador-de-uuid-v4-online-gratuito/
+
+### Meu IP online
+
+Acesse a ferramenta online: https://codamos.com.br/meu-ip-descubra-seu-ip-externo/
 
 ## Código de Conduta
 
